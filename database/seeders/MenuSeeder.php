@@ -14,7 +14,7 @@ class MenuSeeder extends Seeder
     public function run(): void
     {
         // Path disesuaikan dengan file di public/img/
-        Menu::create(['namaMenu' => 'Cheesecake', 'kategori' => 'Main Menu', 'harga' => 35000, 'image_url' => 'img/Cheesecake.JPG']);
+        Menu::create(['namaMenu' => 'Cheesecake', 'kategori' => 'Main Menu', 'harga' => 35000, 'image_url' => 'img/Cheesecake.JPEG']);
         Menu::create(['namaMenu' => 'Dulce Chocolat Black Truffle Cheesecake', 'kategori' => 'Main Menu', 'harga' => 58000, 'image_url' => 'img/Dulce.JPG']);
         Menu::create(['namaMenu' => 'Chocolat Mousse', 'kategori' => 'Main Menu', 'harga' => 25000, 'image_url' => 'img/Chocolate Mousse.JPG']);
 
